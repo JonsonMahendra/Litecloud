@@ -1,0 +1,26 @@
+# /etc/conf.d/litecloudd: config file for /etc/init.d/litecloudd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/litecloud/litecloud.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/litecloudd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/litecloudd.pid"
+
+# Where to write litecloudd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/litecloudd"
+
+# User and group to own litecloudd process
+#BITCOIND_USER="litecloud"
+#BITCOIND_GROUP="litecloud"
+
+# Path to litecloudd executable
+#BITCOIND_BIN="/usr/bin/litecloudd"
+
+# Nice value to run litecloudd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

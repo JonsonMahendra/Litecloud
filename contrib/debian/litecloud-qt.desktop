@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Litecloud
+Comment=Litecloud P2P Cryptocurrency
+Comment[fr]=Litecloud, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Litecloud, eşten eşe kriptografik sanal para birimi
+Exec=litecloud-qt %u
+Terminal=false
+Type=Application
+Icon=litecloud128
+MimeType=x-scheme-handler/litecloud;
+Categories=Office;Finance;
